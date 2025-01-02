@@ -1,2 +1,8 @@
 server.key
 server.crt
+server.log
+client.log
+oldclient.pt
+oldserver.py
+oldserver
+oldclient
