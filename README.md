@@ -76,15 +76,14 @@ python client.py
 '''
 
 ## File Structure
-'''graphql
-├── client.py          # Client-side implementation
-├── server.py          # Server-side implementation
-├── server.crt         # SSL certificate (place in both client and server directories)
-├── server.key         # SSL private key (server only)
-├── server.log         # Server logs
-├── client.log         # Client logs
-└── README.md          # Project documentation
-'''
+- client.py          # Client-side implementation
+- server.py          # Server-side implementation
+- server.crt         # SSL certificate (place in both client and server directories)
+- server.key         # SSL private key (server only)
+- server.log         # Server logs
+- client.log         # Client logs
+- README.md          # Project documentation
+
 ## Usage
 **Server**
 - Start the server and wait for incoming client connections.
