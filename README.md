@@ -58,22 +58,23 @@ This project requires a private key (`server.key`) and a self-signed certificate
    Run the following command:
    ```bash
    openssl req -x509 -newkey rsa:4096 -keyout server.key -out server.crt -days 365 -nodes
+   ```
 
 ## How to Run
 **Server**
 1. Place the server.crt and server.key files in the server's working directory.
 2. Run the server:
-'''bash
+```bash
 python server.py
-'''
-3. The server will start and listen for connections on 127.0.0.1:12345.
+```
+4. The server will start and listen for connections on 127.0.0.1:12345.
    
 **Client**
 1. Place the server.crt file in the client's working directory.
 2. Run the client:
-'''bash
+```bash
 python client.py
-'''
+```
 
 ## File Structure
 - client.py          # Client-side implementation
